@@ -14,10 +14,19 @@ $(function() {
     autoplay: true
   });
 
+  $('.contact__slider-items').slick({
+    dots: true,
+    slidesToShow: 10,
+    slidesToScroll: 10,
+    arrows: false
+  });
+
   let mixer = mixitup('.gallery__inner', {
     load: {
         filter: '.living'
     }
   });
+
+  
 
 })
